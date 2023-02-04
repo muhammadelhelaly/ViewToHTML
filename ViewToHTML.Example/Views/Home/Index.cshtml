@@ -1,0 +1,27 @@
+﻿@model IEnumerable<Book>
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<a class="btn btn-primary" asp-action="GetHTML">Get HTML</a>
+
+<hr />
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Title</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(var book in Model)
+        {
+            <tr>
+                <td>@book.Id</td>
+                <td>@book.Title</td>
+            </tr>
+        }
+    </tbody>
+</table>
