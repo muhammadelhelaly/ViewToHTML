@@ -4,7 +4,23 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <PackageProjectUrl>https://github.com/muhammadelhelaly/ViewToHTML</PackageProjectUrl>
+    <Copyright>MIT</Copyright>
+    <Description>Convert razor views (.cshtml) to HTML</Description>
+    <PackageIcon>Circle_Logo-sm.png</PackageIcon>
+    <RepositoryUrl>https://github.com/muhammadelhelaly/ViewToHTML</RepositoryUrl>
+    <PackageTags>Razor views</PackageTags>
+    <Title>View to HTML</Title>
+    <Company>DevCreed</Company>
+    <GeneratePackageOnBuild>False</GeneratePackageOnBuild>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\..\Documents\Camtasia\Logo\Circle_Logo-sm.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.2.5" />
