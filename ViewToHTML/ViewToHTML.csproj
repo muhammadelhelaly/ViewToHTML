@@ -13,6 +13,8 @@
     <Title>View to HTML</Title>
     <Company>DevCreed</Company>
     <GeneratePackageOnBuild>False</GeneratePackageOnBuild>
+    <Product>View To HTML</Product>
+    <RepositoryType>git</RepositoryType>
   </PropertyGroup>
 
   <ItemGroup>
